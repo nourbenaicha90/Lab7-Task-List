@@ -1,0 +1,88 @@
+/* Add this CSS in your stylesheets or as a separate CSS file */
+body{
+    background-color: rgb(178, 202, 202);
+}
+.h1{
+  font-size: 30px;
+  color:rgb(2, 158, 182) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formNewtask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Adjust the margin as needed */
+  }
+  
+  .formNewtask input {
+    width: 30%;
+    padding: 10px;width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .formNewtask button {
+    background-color: #38D2D2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20PX;
+    border-radius: 20px;
+  }
+  
+  .formNewtask button:hover {
+    background-color: #a3dcdc;
+  }
+.task{
+  
+  background-color: rgb(192, 242, 246);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  margin-bottom: 20px;
+}
+.task .titel{
+  font-size: 30px;
+  color:darkblue ;
+}
+.task .button{
+  position: absolute;
+  margin-left: 15%;
+}
+textarea{
+  font-size: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.task button{
+    background-color: #38D2D2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20PX;
+    border-radius: 20px;
+  
+}
+.task button:hover {
+  background-color: #a3dcdc;
+}
+.done{
+  margin-left: 10px;
+}
+.li{
+  
+  font-size: 25px;
+  
+  color: #000;
+ 
+  list-style-type: none;}
